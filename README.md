@@ -4,11 +4,11 @@ A web application for displaying products with filtering and sorting capabilitie
 
 Table of Contents
 
-1. #introduction
-2. #features
-3. #technologies-used
-4. #getting-started
-5. #api-documentation
+1. introduction
+2. features
+3. technologies-used
+4. getting-started
+5. api-documentation
 
 Introduction
 
