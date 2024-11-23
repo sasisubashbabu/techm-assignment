@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .static-header {
+    background-color: #1363DF;
+    color: white;
+    height: 80px;
+  }
+  
+  .cart-count {
+    background-color: #000;
+    color: white;
+    font-size: 12px;
+    border-radius: 50%;
+    padding: 2px 6px;
+  }
+  
+  .filters div {
+    display: block;
+    float: right;
+  }
+  
+  .filters label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .product {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 350px;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product img {
+    max-height: 200px;
+    object-fit: contain;
+    margin-bottom: 10px;
+  }
+  
+  .product-title, .product-price {
+    margin-bottom: 5px;
+  }
+  
+  .product-title {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .product-price {
+    font-size: 1.2rem;
+    color: #28a745;
+    margin-bottom: 10px;
+  }
+  
+  .heart-icon {
+    font-size: 1.5rem;
+    color: gray;
+    cursor: pointer;
+  }
+  
+  .heart-icon:hover {
+    color: red;
+  }
+  
+  a {
+    color: #ffff;
+    text-decoration: none;
+  }
+  
+  a.selected {
+    border-bottom: 5px solid #fff;
+    padding-bottom: 5px;
+  }
+  
+  .banner {
+    background: #1B252C;
+  }
+  
+  .banner-image {
+    background-image: url('./dummy-image.jpeg');
+    height: 320px;
+  }
+  
+  .banner-card {
+    background-color: #1B252C;
+    color: #ffff;
+    font-size: 48px;
+    text-align: center;
+    margin: auto;
+    width: 25%;
+    height: 16%;
+  }
+  
+  .underline {
+    width: 100px;
+    height: 7px;
+    background-color: #1363DF;
+    border-radius: 4px;
+    margin-left: 35%;
+  }
+  
+  .logo {
+    margin-left: 5em;
+  }
+  
+  .catagories{
+    padding-top: 12px;
+    border-top: 3px solid #ddd;
+  }
+  .shimmer {
+    background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+    background-size: 200% 100%;
+    animation: shimmer 1.5s infinite;
+  }
+  
+  .shimmer-card {
+    height: 350px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }

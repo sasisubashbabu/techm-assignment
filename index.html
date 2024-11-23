@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Store</title>
+  <link rel="stylesheet" href="/src/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+<body>
+  <header class="static-header d-flex justify-content-between align-items-center px-3 py-2">
+    <div class="logo">/ENIA</div>
+    <nav class="d-none d-md-flex">
+      <a href="#home" class="mx-2 selected">Home</a>
+      <a href="#women" class="mx-2">Women</a>
+      <a href="#men" class="mx-2">Men</a>
+      <a href="#smartgear" class="mx-2">Smart Gear</a>
+      <a href="#accessories" class="mx-2">Accessories</a>
+    </nav>
+    <div class="cart d-flex align-items-center">
+      <i class="fa-solid fa-bag-shopping"></i>
+      <span class="cart-count">10</span>
+    </div>
+    <button class="btn btn-light d-md-none" id="menu-toggle">Menu</button>
+  </header>
+  <main class="container-fluid">
+    <div class="row banner">
+      <div class="col-md-3 banner-card">
+        <h2>Men's Outerwear</h2>
+        <div class="underline mt-4"></div>
+      </div>
+      <div class="col-md-9 banner-image"></div>
+    </div>
+    <div class="row mt-3">
+      <aside class="filters col-12 col-md-3 mb-3">
+        <div class="filters">
+        <h5>Filters</h5>
+        <div class="catagories">
+          <h6>Categories</h6>
+          <label><input type="checkbox" value="jewelery" onchange="filterByCategory()"> Jewellery</label>
+          <label><input type="checkbox" value="electronics" onchange="filterByCategory()"> Electronics</label>
+          <label><input type="checkbox" value="men's clothing" onchange="filterByCategory()"> Men's Clothing</label>
+          <label><input type="checkbox" value="women's clothing" onchange="filterByCategory()"> Women's Clothing</label>
+        </div>
+        </div>
+      </aside>
+      <section class="product-display col-12 col-md-9">
+        <div class="header-bar d-flex justify-content-between align-items-center mb-3">
+          <span id="results-count"></span>
+          <select id="sort" class="form-select w-auto" onchange="sortByPrice(this.value)">
+            <option value="" disabled selected>Sort By Price</option>
+            <option value="asc">Low to High</option>
+            <option value="desc">High to Low</option>
+          </select>
+        </div>
+        <div id="shimmer-container" class="row g-3"></div>
+        <div class="product-container row g-3" id="product-container"></div>
+        <section class="pagination-container d-flex justify-content-center mt-3">
+          <div id="pagination"></div>
+        </section>
+      </section>
+    </div>
+  </main>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
