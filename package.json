@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build --exclude .DS_Store",
     "preview": "vite preview"
   },
   "dependencies": {
