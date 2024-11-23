@@ -1,8 +1,8 @@
-Product Listing Page
+**Product Listing Page**
 
 A responsive product listing page developed using HTML5, CSS3, and JavaScript (ES6) without any frameworks.
 
-Features
+**Features**
 
 - Fetches product data from FakeStore API
 - Stores product data locally for filtering, sorting, and search functionality
@@ -10,7 +10,7 @@ Features
 - Static Banner and Menu data
 - Responsive design for mobile and desktop devices
 
-Functionality
+**Functionality**
 
 - Filter products by category
 - Sort products by price
@@ -18,18 +18,18 @@ Functionality
 - Add products to Cart
 - Add products to Wishlist
 
-Technologies Used
+**Technologies Used**
 
 - HTML5
 - CSS3
 - JavaScript (ES6)
 - FakeStore API
 
-Installation
+**Installation**
 
 1. Clone the repository to your local machine.
 2. Open the index.html file in a web browser to view the application.
 
-Contact
+**Contact**
 
 For any questions or feedback, please contact Subash +91 73057 28734 
